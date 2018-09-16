@@ -1,0 +1,376 @@
+
+		/*IMPORT*/
+
+@import url(font.css);
+*{
+	margin: 0;
+	padding: 0;
+}
+	
+			
+
+			/*HEADER START*/
+
+header{
+	background-image: linear-gradient(to bottom,#120d33 0%,transparent 100%),url(image/head.png); /*задаем линейный градиент - это даст синий оттенок изображению,вторым пунктом задаем фоновое изображение*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+	color: #ffffff;
+	position: relative;
+}
+
+.logo{
+	margin: 35px 0 0 110px;
+}
+.logo img{
+	float: left;
+	margin-right:15px;
+}
+.navigation{
+	margin-top: 35px;
+	
+}
+.navigation ul{
+	margin-left: 35%;
+}
+.navigation ul span :first-child{
+	color: #07cec3;
+}
+.navigation ul li a{
+	text-decoration: none;
+	color:#ffffff;
+}
+.navigation ul li{
+	display: inline;		/*горизонтальное меню*/
+	padding: 0 25px 0 0;	
+}
+header h2{
+	text-align: center;
+	padding-top: 5%;
+}
+.headtext{
+	margin:5% auto;
+	padding:0 200px;
+}
+.button{
+	padding-bottom: 2%;
+	text-align: center;   /*центрировать кнопку*/
+}
+#head_btn{
+	background: transparent;/*прозрачная кнопка*/
+	padding: 15px 25px 15px 25px;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	font-weight: bolder;
+	text-decoration: none;
+}
+button{
+	background: transparent;/*прозрачная кнопка*/
+	padding: 15px 25px 15px 25px;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	font-weight: bolder;
+}
+			/*HEADER END*/
+#modal1{
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	display: none;
+	width: 70%;
+	margin: 0 auto;
+	padding: 3% 3% 1% 3%;
+	background-color: #c9cacc;
+	box-shadow: 0 0 15px 5px;
+	color: #000000;
+	font-family: 'Lucida Sans',sans-serif;
+	text-indent: 25px;
+}
+#modal1 i{
+	float: right;
+	cursor: pointer;
+}
+#modal2{
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	display: none;
+	width: 70%;
+	margin: 0 auto;
+	padding: 3% 3% 2% 3%;
+	background-color: #c9cacc;
+	box-shadow: 0 0 15px 5px;
+	color: #000000;
+	font-family: 'Lucida Sans',sans-serif;
+	text-indent: 25px;
+}
+#modal2 i{
+	float: right;
+	cursor: pointer;
+}
+#modal3{
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	display: none;
+	width: 70%;
+	margin: 0 auto;
+	padding: 1% 3% 2% 3%;
+	background-color: #c9cacc;
+	box-shadow: 0 0 15px 5px;
+	color: #000000;
+	font-family: 'Lucida Sans',sans-serif;
+	text-indent: 25px;
+	text-align: left;
+	height: 38%;	
+}
+#modal3 i{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	float: right;
+	cursor: pointer;
+}
+		/*CONTENT START*/
+
+.About{
+	height: auto;
+	padding: 5%;
+	position: relative;
+}
+/* .About_text{
+	height: 400px;
+} */
+.log2{
+	float: left;
+	margin-right: 40px;
+}
+.text p{
+	text-align: left;
+}
+.text h3{
+	margin-bottom: 28px;
+}
+#btn2{
+	margin-top: 30px;
+}
+.Blog{
+	background-image: linear-gradient(to bottom,#2c254a 0%,transparent 100%),url(image/blog.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 2% 6%;
+}
+.Blog h2{
+	text-align: center;
+	margin-bottom: 2%;
+	height: auto;
+}
+.Expertise_head{
+	padding-bottom: 30px;
+	text-align: center;
+}
+.Expertise{
+	height: auto;
+	padding: 50px 0;
+}
+.exp .row{
+	margin-bottom: 80px;
+}
+.block{
+	border: 1px ridge #d6d6d6;
+	/* box-shadow: 5px -4px 10px 3px #adadad; */
+	text-align: center;	
+	margin: 1%;	
+	padding: 5%;
+	cursor: pointer;
+	transition: box-shadow 0.5s ease-in;
+}
+.block:hover{
+	box-shadow: 5px -4px 10px 3px;
+	border: 1px ridge #0000;
+}
+.block img{
+	padding-bottom:40px;
+	height: 90px;
+
+}
+.Team{
+	padding: 3%;	
+	height: auto;
+	background-image:linear-gradient(to bottom,#120d33 0%,transparent 100%),url(image/headteam.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color:#ffffff;
+	text-align: center;
+	position: relative;
+}
+.Team p{
+	margin: 20px 0;
+	position: relative;
+	text-align: center;
+}
+.Team_head h3{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.Team_head p{
+	text-align: center;
+	margin: 10px;
+}
+.Team_people__block img{
+	margin-bottom: 25px;
+}
+
+.Contact{
+	height: auto;
+	padding: 0 5% 5% 5%;
+}
+.Contact h5{
+	text-align: center;
+	margin: 5% 0;
+}
+.Contact_f{
+	width: 45%;
+	float: left;
+}
+.Contact-form input{	
+	height: 40px;
+	width: 460px;
+	display: flex;
+	margin-top: 25px;
+	padding-left: 7%;
+}
+#sub{
+	float: left;
+	background: transparent;
+	width: 120px;
+	height: 40px;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	font-weight: bolder;
+}
+
+.Massage{
+	overflow:hidden;
+	margin-top: 20px;
+	height: 200px;
+	width: 460px;
+	padding: 20px 0 165px 20px;
+}
+.Contact_client{
+	width: 50%;
+	float: right;
+}
+.Contact_client__column1{
+	display: grid;
+	grid-template-columns: repeat(2, 300px);
+	grid-row-gap: 20px;
+}
+.Contact_client__column1 img{
+	margin: auto;
+}
+
+
+		/*CONTENT END*/
+footer{
+	height: 300px;
+	background-image: linear-gradient(to bottom,#120d33 0%,transparent 100%),url(image/footer.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 1% 2%;
+	color: #ffffff;
+}
+.footer_left{
+	/* float: left; */
+	width: 30%;
+
+}
+.footer_left_head{
+	margin-bottom: 40px;
+	text-align: center;
+}
+.footer_left__text{
+	text-align: left;
+}
+.footer_left ul{
+	margin-top: 30px;
+}
+.footer_left ul li{
+	display: inline;
+	/* padding-top: 30px; */
+}
+.footer_left ul li:nth-child(even){
+	padding:0 30px;	
+}
+.footer_left ul a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.footer_nav{
+	/* padding-bottom: 15px; */
+}
+.CenterFooter{
+	text-align: center;
+	width: auto;
+	/* padding: 0 auto; */
+}
+.CenterFooter h4{
+	padding-bottom: 10%;
+}
+.CenterFooter i{
+	padding-right: 15px;
+}
+.CenterFooter p{
+	padding-bottom: 5%;
+}
+
+
+.footer_community h4{    /*отступ от заголовка к последующему содержимому*/
+	margin-bottom: 5%;
+}
+.footer_community{
+	/* float: left; */
+
+	width: 33%;
+}
+.footer_community form input{
+	height: 45px;
+	width: 210px;
+	background: transparent;
+	border: 1px solid #9e98b0;
+	margin-right: 10px;
+	padding: 2%;
+}
+.footer_button{
+	padding:10px 22px 10px 22px;
+	height: 45px;
+	width: 70px;
+	background-color: #9b92ac;
+	border: none;
+	box-shadow: 0 0 25px #000000;
+	transition: box-shadow 1s ease
+}
+.footer_button:hover{
+	box-shadow: 4px -5px 10px #000000;
+}
+
+/* .footer-button button img{
+	opacity: 0; 
+} */
+.SocialPages{
+	margin-top: 28px;
+}
+
+.icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+}

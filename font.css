@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+
+header h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 26px;
+}
+header a{
+	font-family: 'Roboto', sans-serif;
+}
+.logo p{
+	font-family: 'Bitter', serif;
+	font-size: 2vw;
+	color:#2cbdce;
+}
+.headtext{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+.partOne p{
+	font-size: 17px;
+	font-weight: bolder;
+	font-family: 'Playfair Display', serif;
+}
+.partTWO p{
+	font-size: 17px;
+	font-weight: bolder;	
+	font-family: 'Playfair Display', serif;
+}
+
+/*About*/
+
+.text h3{
+	font-family: 'Playfair Display', serif;
+} 
+.text p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+.video p{
+	font-family: 'Roboto', sans-serif;
+}
+/* Blog */
+.Blog h2{
+	font-family: 'Playfair Display', serif;
+	color: aliceblue;
+} 
+.btn:not(:disabled):not(.disabled){
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #857eb3;
+}
+
+/*Expertise*/
+
+.Expertise_head h3{
+	font-family: 'Playfair Display', serif;
+}
+.Expertise_head p{
+	font-family: 'Playfair Display', serif;
+}
+.exp p{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+.exp span{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+}
+
+/*Team*/
+.Team {
+	font-family: 'Roboto', sans-serif;
+	height: 12px;
+}
+.Team_head h3{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+.Team_head p{
+	padding-bottom: 25px;
+}
+.Team p{
+	font-family: 'Roboto', sans-serif;
+	height: 12px;
+}
+
+/*Contact*/
+
+.Contact_f h5{
+	font-family: 'Playfair Display', serif;
+}
+.Contact_client h5{
+	font-family: 'Playfair Display', serif;
+}
+
+
+/*Footer*/
+
+.footer_left_head h3{
+	font-family: 'Playfair Display', serif;
+	/* font-size: 30px; */
+	color:#2cbdce;
+}
+.footer_left p{
+	font-family: 'Roboto', sans-serif;	
+}
+.footer_left a{
+	font-family: 'Roboto', sans-serif;	
+}
+.CenterFooter h4{
+	font-family: 'Playfair Display', serif;
+}
+.CenterFooter p{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+}
+.footer_community h4{
+	font-family: 'Playfair Display', serif;
+}

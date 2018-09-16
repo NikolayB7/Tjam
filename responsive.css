@@ -1,0 +1,53 @@
+@media(max-width:1200px){
+    .logo{
+        margin: 35px 0 0 50px; 
+    }
+    .headtext{
+        margin:2% auto;
+        padding: 0 100px;
+    }
+    header h2{
+        text-align: center;
+        padding-top: 2%;
+    }
+    .navigation ul{
+        margin-left: 30%;
+    }
+    .Blog{
+        padding: 2% 4% 4% 4%;
+    }
+    .Blog h2{
+        margin-bottom: 2%;
+    }
+}
+@media(max-width:992px){
+    
+    .logo{
+        margin: 35px 0 0 20px; 
+    }
+    .navigation ul{
+        margin-left: 20%;
+    }
+    .About{
+        padding: 2%;
+    }
+    .log2{
+        margin-right: 50px;
+        width: 20%;
+    }
+    .log2 img{
+        height: 60%;
+    }
+    .text{
+        width: 70%;
+    }
+    
+}
+@media(max-width:768px){
+    .logo img{
+        float: none;
+    }
+    .navigation ul{
+        margin-left: 10%;
+    }
+}
