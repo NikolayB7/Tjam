@@ -4,7 +4,7 @@
     }
     .headtext{
         margin:2% auto;
-        padding: 0 100px;
+        padding: 0 15%;
     }
     header h2{
         text-align: center;
@@ -18,7 +18,16 @@
     }
     .Blog h2{
         margin-bottom: 2%;
-    }
+		}
+		#modal1{
+			top: 5%;
+		}
+		#modal2{
+			top: 10%;
+		}
+		#modal3{
+
+		}
 }
 @media(max-width:992px){
     
@@ -32,15 +41,28 @@
         padding: 2%;
     }
     .log2{
-        margin-right: 50px;
+        /* margin-right: 50px; */
         width: 20%;
     }
     .log2 img{
-        height: 60%;
+        /* height: 60%; */
     }
     .text{
         width: 70%;
-    }
+		}
+		#modal1{
+			top: 2%;
+			left: 10%;
+			width: 80%;
+		}
+		#modal2{
+			top: 5%;
+			left: 10%;
+			width: 80%;
+		}
+		#modal3{
+			width: 80%;
+		}
     
 }
 @media(max-width:768px){
@@ -49,5 +71,53 @@
     }
     .navigation ul{
         margin-left: 10%;
-    }
+		}
+		#modal2{
+			top: 1%;
+			font-size: 12px;
+		}
+		#modal3{
+			left: 10%;
+			height: 35%;
+		}
+}
+
+@media (min-width:360px) and (max-width:767px){
+	.navigation{
+		display: none;
+	}
+	.click_navigation_touch{
+		display: block;
+	}
+	.logo p{
+		padding-left: 8px;
+	}
+	.text{
+		width: 50%;
+	}
+	.About_text{
+		text-align: center;
+	}
+	.footer_community{
+		text-align: center;
+	}
+	.social_pages{
+		margin: 5% 29%;
+	}
+	.footer_nav{
+		display: none;
+	}
+	#modal1{
+		top: 15%;
+		left: 5%;
+		width: 90%;
+		font-size: 12px;
+	}
+	#modal2{
+		top: 7%;
+	}
+	#modal3{
+		top: 50%;
+		height: 30%;
+	}
 }

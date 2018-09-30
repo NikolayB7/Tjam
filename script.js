@@ -35,7 +35,6 @@ $('#close_modal3').click(function(){
 $('form').submit(function () {
 	return false;
 });
-/********************************/
 /*********Плавный переход по якорям**********/
 
 $("body").on('click', '[href*="#"]', function(e){
@@ -43,6 +42,12 @@ var fixed_offset = 0;
 $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
 e.preventDefault();
 });
-/********************************************/
+
+
+// Появление мобильного меню
+
+$('.click_navigation_touch').click(function(){
+	$('.navigation_touch').toggle('blind',500);
+})
 
 
